@@ -16,7 +16,7 @@ html:`
 <div class="songCard">
 <img class="cover" src="src/pict.jpg">
 <div class="songInfo">
-<div>Happy Birthday yo You</div>
+<div>Happy Birthday to You</div>
 <div style="font-size:12px;opacity:.7;margin-bottom:10px">Pamungkas</div>
 
 <div class="player">
