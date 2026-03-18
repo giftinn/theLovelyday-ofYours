@@ -16,8 +16,8 @@ html:`
 <div class="songCard">
 <img class="cover" src="src/pict.JPG">
 <div class="songInfo">
-<div>You'll be in my heart</div>
-<div style="font-size:12px;opacity:.7;margin-bottom:10px">Phil Collins</div>
+<div>Waltz for Moon</div>
+<div style="font-size:12px;opacity:.7;margin-bottom:10px">Hodge</div>
 
 <div class="player">
 <div class="topRow">
@@ -71,7 +71,7 @@ html:`
 <div class="player" style="width:100%">
 
 <div class="topRow">
-<div class="playIcon" onclick="playVoice('src/audio.mp3',this)">▶</div>
+<div class="playIcon" onclick="playVoice('src/a.mp3',this)">▶</div>
 
 <div class="progressWrap" onclick="seek(event)">
 <div class="progressBar" id="progressBar"></div>
@@ -110,13 +110,12 @@ html:`
 <span class="signal">TRANSMISSION START</span><br>
 
 
-Nine months with you feels both long and short at the same time. Long, because we’ve shared so many moments, memories, and feelings together. Short, because every day with you still feels new and exciting to me.
+Happy birthday. 
+I just wanted to take a moment to wish you well on your special day. Even though things have changed between us, I still appreciate the memories we shared and the time we once had together. It was a part of my life that I won’t forget.
 
-Thank you for staying, for being patient with me, and for loving me even when I’m not at my best. You make my days brighter, my problems lighter, and my heart calmer. Being with you is one of the best things that has ever happened to me.
+I hope this new chapter brings you more clarity, growth, and genuine happiness. You deserve good things, and I truly hope life treats you kindly moving forward. May you find peace in where you are now and excitement in where you’re going next.
 
-These nine months are just a small part of our story, but they already mean so much to me. I hope we continue growing together, learning about each other, and making more memories that we can look back on someday.
-
-I don’t know what the future will look like, but I know that having you in my life is something I’m truly grateful for. Happy 9 months to us, and I hope this is only the beginning of many more memories, laughs, and moments together.
+Take care of yourself, and keep becoming a better version of you. Wishing you all the best, always. 
 
 
 <span class="signal">END SIGNAL</span>
@@ -376,7 +375,7 @@ function checkStation(){
 function togglePlay(){
 const btn=document.getElementById("playBtn");
 if(audio.paused){
-audio.src="src/song.mp3";
+audio.src="src/s.mp3";
 audio.play();
 btn.textContent="⏸";
 }else{
