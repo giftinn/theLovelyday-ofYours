@@ -16,8 +16,8 @@ html:`
 <div class="songCard">
 <img class="cover" src="src/pict.jpg">
 <div class="songInfo">
-<div>Waltz for Moon</div>
-<div style="font-size:12px;opacity:.7;margin-bottom:10px">Hodge</div>
+<div>Happy Birthday yo You</div>
+<div style="font-size:12px;opacity:.7;margin-bottom:10px">Pamungkas</div>
 
 <div class="player">
 <div class="topRow">
